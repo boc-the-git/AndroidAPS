@@ -144,6 +144,7 @@
     <string name="setbasalquestion">Accept new temp basal:</string>
     <string name="overview_treatment_label">Treatment</string>
     <string name="overview_calculator_label">Calculator</string>
+    <string name="default_temp_target_checked">Default Temp Target Checked</string>
     <string name="constraintapllied">Constraint applied!</string>
     <string name="sms_bolus">Bolus:</string>
     <string name="basal">Basal</string>
@@ -771,6 +772,7 @@
     <string name="key_show_cgm_button" translatable="false">show_cgm_button</string>
     <string name="key_show_carbs_button" translatable="false">show_carbs_button</string>
     <string name="key_show_wizard_button" translatable="false">show_wizard_button</string>
+    <string name="key_default_temp_target_checked" translatable="false">default_temp_target_checked</string>
     <string name="key_show_insulin_button" translatable="false">show_insulin_button</string>
     <string name="key_show_treatment_button" translatable="false">show_treatment_button</string>
     <string name="show_calibration_button_summary">Sends a calibration to xDrip+ or open G5 calibration dialog</string>

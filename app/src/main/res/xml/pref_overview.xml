@@ -28,6 +28,11 @@
                 android:title="@string/overview_calculator_label" />
 
             <SwitchPreference
+                android:defaultValue="false"
+                android:key="@string/key_default_temp_target_checked"
+                android:title="@string/default_temp_target_checked" />
+
+            <SwitchPreference
                 android:defaultValue="true"
                 android:key="@string/key_show_insulin_button"
                 android:title="@string/configbuilder_insulin" />
