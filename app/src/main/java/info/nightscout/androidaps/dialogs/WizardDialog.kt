@@ -267,6 +267,10 @@ class WizardDialog : DaggerDialogFragment() {
         }
         binding.ttcheckbox.isEnabled = treatmentsPlugin.tempTargetFromHistory != null
 
+        if (treatments_wizard_ttcheckbox.isEnabled) {
+            treatments_wizard_ttcheckbox.isChecked = sp.getBoolean(R.string.key_default_temp_target_checked, false)
+        }
+
         // IOB calculation
         treatmentsPlugin.updateTotalIOBTreatments()
         val bolusIob = treatmentsPlugin.lastCalculationTreatments.round()
