@@ -326,8 +326,8 @@ class WizardDialog : DaggerDialogFragment() {
         binding.bgInput.value = iobCobCalculator.ads.actualBg()?.valueToUnits(units) ?: 0.0
         binding.ttCheckbox.isEnabled = repository.getTemporaryTargetActiveAt(dateUtil.now()).blockingGet() is ValueWrapper.Existing
 
-        if (binding.ttcheckbox.isEnabled) {
-            binding.ttcheckbox.isChecked = sp.getBoolean(R.string.key_default_temp_target_checked, false)
+        if (binding.ttCheckbox.isEnabled) {
+            binding.ttCheckbox.isChecked = sp.getBoolean(R.string.key_default_temp_target_checked, false)
         }
 
         // IOB calculation
