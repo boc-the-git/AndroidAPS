@@ -263,6 +263,7 @@ class NSClientService : DaggerService() {
                 val opt = IO.Options()
                 opt.forceNew = true
                 opt.reconnection = true
+                opt.transports = ["websocket", "polling"]
                 socket = IO.socket(nsURL, opt).also { socket ->
                     socket.on(Socket.EVENT_CONNECT, onConnect)
                     socket.on(Socket.EVENT_DISCONNECT, onDisconnect)
